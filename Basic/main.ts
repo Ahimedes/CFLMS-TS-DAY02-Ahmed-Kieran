@@ -12,7 +12,7 @@ class Person {
     }
 }
 
-// let fullname = new Person("Ahmed", "Abdelaal", "Developer");
+//let fullname = new Person("Ahmed", "Abdelaal", "Developer");
 // console.log(fullname.name());
 
 class Extra extends Person { 
@@ -26,7 +26,7 @@ class Extra extends Person {
     }
  
     name() { 
-        return  `${super.name()}, I earn ${this.salary} and I work in ${this.jobLocation}`; // ⑤
+        return  `${super.name()}, I earn ${this.salary} and I work in ${this.jobLocation}`;
     }
  }
 
